@@ -11,8 +11,8 @@ mongoose
   .then(() => console.log("MongoDb is Connected"))
   .catch((err) => console.log(err));
 
-  app.use("/",route);
-
+    app.use("/",route);
+           
   
 app.listen(process.env.PORT || 3000, function () {
     console.log("Express app running on port " + (process.env.PORT || 3000));
